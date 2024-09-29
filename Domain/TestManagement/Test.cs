@@ -1,19 +1,10 @@
 ﻿namespace TestTool.Domain.TestManagement
 {
-    public class Test
+    public class Test(int ID, string title, string? description, List<SubTest>? subtests)
     {
-        public int Id { get; }
-        public string Title { get; }
-        public string? Description { get; }
-        public List<SubTest> Subtest { get; }
-
-        public Test(int ID, string title, string? description, List<SubTest> subtest)
-        {
-            Id = ID;
-            Title = title;
-            Description = description;
-            Subtest = subtest;
-        }
-
+        public int Id { get; } = ID;
+        public string Title { get; } = title;
+        public string? Description { get; } = description;
+        public List<SubTest>? SubTests { get; } = subtests;
     }
 }

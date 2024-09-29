@@ -9,5 +9,11 @@
             Title = title;
             Steps = steps;
         }
+
+        public Step AddStep(string description, State state)
+        {
+            Step step = new Step(description, state);
+            return step;
+        }
     }
 }

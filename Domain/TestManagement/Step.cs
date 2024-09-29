@@ -11,5 +11,11 @@
             State = state;
         }
 
+        public void EditStep(string _description, State _state)
+        {
+            Description = _description;
+            State = _state;
+        }
+
     }
 }

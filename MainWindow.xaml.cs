@@ -20,5 +20,20 @@ namespace TestTool
         {
             InitializeComponent();
         }
+
+        private void ButtonSwitchToPlan(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ButtonSwitchToLab(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ButtonSwitchToSettings(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

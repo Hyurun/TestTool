@@ -1,8 +1,8 @@
 ```mermaid
 classDiagram
 	class TestFolder{
-		-test : Test
-		-testFolderName : string
+		-List~Test~ test
+		-string testFolderName
 		+createTestFolder()
 		+deleteTestFolder()
 		+addTest()
